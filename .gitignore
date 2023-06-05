@@ -1,0 +1,7 @@
+temporary
+
+*.aux
+*.bbl
+*.log
+*.out
+*.gz

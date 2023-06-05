@@ -1,0 +1,26 @@
+\documentclass[withoutpreface,bwprint]{../CUMCMThesis/cumcmthesis} %去掉封面与编号页
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs} 
+\usepackage{threeparttable}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+% 表格模板
+\begin{table}[H]
+  \centering
+  \caption{原始数据的统计分析}
+  \begin{tabular}{ccccc}
+    \hline
+    聚类中心 & 1         & 2         & 3         & 4         \\
+    \hline
+    经度   & 23.18137  & 22.66239  & 22.98919  & 22.98919  \\
+    纬度   & 113.21833 & 114.04244 & 113.78511 & 113.36159 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\end{document}
