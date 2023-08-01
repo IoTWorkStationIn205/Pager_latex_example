@@ -1,0 +1,116 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program  = xelatex
+
+% \documentclass{cumcmthesis}
+\documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs} 
+\usepackage{threeparttable}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+\usepackage[utf8]{inputenc}
+
+% 设置页眉线
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\rhead{\textcolor{black}{参赛队伍编号：}\textcolor{red}{TFB0000404SXJM}}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\headrule}{\color{red}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}
+
+\title{题\quad 目：\underline{\quad\quad 基于。。。 \quad\quad}}
+
+% \tihao{A}
+% \baominghao{4321}
+% \schoolname{XX大学}
+% \membera{zstar}
+% \memberb{向左}
+% \memberc{哈哈}
+% \supervisor{老师}
+% \yearinput{2021}
+% \monthinput{08}
+% \dayinput{22}
+
+\begin{document}
+
+% 摘要
+\maketitle
+\begin{abstract}
+	摘要
+
+	\keywords{1;\quad 1;\quad 1;\quad }
+\end{abstract}
+
+%目录（可要可不要）
+% \tableofcontents
+
+\section{问题重述}
+
+\subsection{背景资料}
+
+地震的
+
+\subsection{需要解决的问题}
+
+我们通过分析相关数据，运用数学思想，建立数学模型来研究震源识别、震级预测中的下列问题：
+
+问题1： 结合
+
+问题2： 已知
+
+问题3： 水库
+
+\section{问题分析}
+
+\subsection{问题一分析}
+
+问题一分析
+
+
+\subsection{问题二分析}
+
+
+\subsection{问题三分析}
+
+
+\section{模型的假设}
+
+\begin{enumerate}
+	\item 假设地震波的真实数据与噪声数据存在显著差异。
+	\item 假设各站点检测仪器准确，不考虑仪器误差。
+	\item 假设不同的地震事件直接互不干扰。
+\end{enumerate}
+
+\section{符号说明}
+
+\begin{center}
+	\begin{tabular}{cc}
+		\hline
+		\makebox[0.3\textwidth][c]{符号} & \makebox[0.4\textwidth][c]{意义} \\
+		\hline
+		$\otimes$                      & 卷积运算                           \\
+		$x(t)$                         & 原始信号                           \\
+		$\psi(t)$                      & 小波基函数                          \\
+		$a$                            & 尺度因子                           \\
+		\hline
+	\end{tabular}
+\end{center}
+
+% 问题一
+\section{问题一的建立与求解}
+
+\subsection{统计分析}
+
+% 正文
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%参考文献
+\bibliographystyle{unsrt}
+\bibliography{reference}
+
+\end{document}
